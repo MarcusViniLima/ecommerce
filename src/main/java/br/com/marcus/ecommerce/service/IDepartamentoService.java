@@ -1,4 +1,4 @@
-package br.com.marcus.service;
+package br.com.marcus.ecommerce.service;
 
 import java.util.ArrayList;
 

@@ -15,7 +15,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 import br.com.marcus.ecommerce.DAO.DepartamentoDAO;
 import br.com.marcus.ecommerce.model.Departamento;
-import br.com.marcus.service.DepartamentoServiceImpl;
+import br.com.marcus.ecommerce.service.DepartamentoServiceImpl;
 
 @RestController
 public class DepartamentoController {
