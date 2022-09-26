@@ -8,6 +8,10 @@ API desenvolvida durante o treinamento If Black, then Code (IBM & Gama Academy),
 **404 - Bad Request**
 Dados enviados de forma incorreta ou fora do padrão.
 
+## Como executar a aplicação
+  Antes de iniciar a aplicação, é necessário criar um banco de dados no MySQL chamado **ecommerce** na porta **3306**, no **localhost**. Configure seus usuário e senha no arquivo `src\main\resources\application.properties`, e execute os <a href="https://github.com/MarcusViniLima/ecommerce/blob/master/EcommerceSQL.sql">Scripts SQL</a> para criação e população das tabelas. A seguir, use os comandos 'mvn clean' e 'mvn package' no terminal. <br>
+   Os endpoints da API serão tratados nos tópicos a seguir.
+
 ## Departamentos
 Endpoints de departamentos.
 
